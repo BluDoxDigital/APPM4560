@@ -114,7 +114,7 @@ theory = [ g(n) for n in range(0,100) ]
 
 
 
-plt.plot( steps , gList1, color='black', label=f'Simulation')
+plt.plot( steps , gList1, color='red', label=f'Simulation')
 plt.plot( steps, theory, color='blue', label='Theory',)
 plt.axhline(y=1/3, color='red', label='pi')
 
@@ -126,7 +126,7 @@ plt.show()
 
 
 
-plt.plot( steps , gList2, color='black', label=f'Simulation')
+plt.plot( steps , gList2, color='red', label=f'Simulation')
 plt.plot( steps, theory, color='blue', label='Theory',)
 plt.axhline(y=1/3, color='red', label='pi')
 
